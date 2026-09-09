@@ -1,0 +1,1 @@
+# Serverless-GenAI-CloudTrail-Summarizer-AI-SecOps-
