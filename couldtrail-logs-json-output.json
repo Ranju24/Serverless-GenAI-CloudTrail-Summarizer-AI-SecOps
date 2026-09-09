@@ -1,1 +1,360 @@
-{"Records":[{"eventVersion":"1.11","userIdentity":{"type":"Root","principalId":"755905325526","arn":"arn:aws:iam::755905325526:root","accountId":"755905325526","accessKeyId":"ASIA2773X5HLFWZAR5EL","sessionContext":{"attributes":{"creationDate":"2026-09-09T12:16:48Z","mfaAuthenticated":"true"}}},"eventTime":"2026-09-09T12:23:47Z","eventSource":"lambda.amazonaws.com","eventName":"CreateFunction20150331","awsRegion":"us-east-1","sourceIPAddress":"65.2.12.119","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36 Edg/152.0.0.0","requestParameters":{"functionName":"the-function","runtime":"python3.14","role":"arn:aws:iam::755905325526:role/service-role/the-function-role-gifo61nz","handler":"lambda_function.lambda_handler","code":{},"timeout":3,"memorySize":128,"publish":false,"environment":{}},"responseElements":{"functionName":"the-function","functionArn":"arn:aws:lambda:us-east-1:755905325526:function:the-function","runtime":"python3.14","role":"arn:aws:iam::755905325526:role/service-role/the-function-role-gifo61nz","handler":"lambda_function.lambda_handler","codeSize":299,"description":"","timeout":3,"memorySize":128,"lastModified":"2026-09-09T12:23:47.277+0000","codeSha256":"R6fL2f5y9xHPTo4NojRtY2hz04DlAxWgwXm4xSMnwRQ=","version":"$LATEST","environment":{},"tracingConfig":{"mode":"PassThrough"},"revisionId":"5f51bc19-de81-4e3c-9d94-53d3d8cfbd49","state":"Pending","stateReason":"The function is being created.","stateReasonCode":"Creating","packageType":"Zip","architectures":["x86_64"],"ephemeralStorage":{"size":512},"snapStart":{"applyOn":"None","optimizationStatus":"Off"},"runtimeVersionConfig":{"runtimeVersionArn":"arn:aws:lambda:us-east-1::runtime:eeb8a9516d399508120f0ea5616b892b0aa6f2f2e9c66961b3734b3ec62d8871"},"loggingConfig":{"logFormat":"Text","logGroup":"/aws/lambda/the-function"}},"requestID":"6998950b-c268-4a3d-b475-776a1a97c256","eventID":"c19a532e-90d9-486a-a3b1-2cf76d78b1c3","readOnly":false,"eventType":"AwsApiCall","managementEvent":true,"recipientAccountId":"755905325526","eventCategory":"Management","tlsDetails":{"tlsVersion":"TLSv1.3","cipherSuite":"TLS_AES_128_GCM_SHA256","clientProvidedHostHeader":"lambda.us-east-1.amazonaws.com"},"sessionCredentialFromConsole":"true"},{"eventVersion":"1.11","userIdentity":{"type":"Root","principalId":"755905325526","arn":"arn:aws:iam::755905325526:root","accountId":"755905325526","accessKeyId":"ASIA2773X5HLFWZAR5EL","sessionContext":{"attributes":{"creationDate":"2026-09-09T12:16:48Z","mfaAuthenticated":"true"}}},"eventTime":"2026-09-09T12:23:38Z","eventSource":"lambda.amazonaws.com","eventName":"CreateFunction20150331","awsRegion":"us-east-1","sourceIPAddress":"65.2.12.119","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36 Edg/152.0.0.0","errorCode":"InvalidParameterValueException","errorMessage":"The role defined for the function cannot be assumed by Lambda.","requestParameters":{"functionName":"the-function","runtime":"python3.14","role":"arn:aws:iam::755905325526:role/service-role/the-function-role-gifo61nz","handler":"lambda_function.lambda_handler","code":{},"timeout":3,"memorySize":128,"publish":false,"environment":{}},"responseElements":null,"requestID":"47063507-93f0-4625-8d86-4ee2ef8b2b80","eventID":"a181fe76-6a60-425b-8b66-18c09d160171","readOnly":false,"eventType":"AwsApiCall","managementEvent":true,"recipientAccountId":"755905325526","eventCategory":"Management","tlsDetails":{"tlsVersion":"TLSv1.3","cipherSuite":"TLS_AES_128_GCM_SHA256","clientProvidedHostHeader":"lambda.us-east-1.amazonaws.com"},"sessionCredentialFromConsole":"true"},{"eventVersion":"1.11","userIdentity":{"type":"Root","principalId":"755905325526","arn":"arn:aws:iam::755905325526:root","accountId":"755905325526","accessKeyId":"ASIA2773X5HLFWZAR5EL","sessionContext":{"attributes":{"creationDate":"2026-09-09T12:16:48Z","mfaAuthenticated":"true"}}},"eventTime":"2026-09-09T12:23:37Z","eventSource":"iam.amazonaws.com","eventName":"CreateRole","awsRegion":"us-east-1","sourceIPAddress":"65.2.12.119","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36 Edg/152.0.0.0","requestParameters":{"path":"/service-role/","roleName":"the-function-role-gifo61nz","assumeRolePolicyDocument":"{\n    \"Version\": \"2012-10-17\",\n    \"Statement\": [\n        {\n            \"Effect\": \"Allow\",\n            \"Principal\": {\n                \"Service\": \"lambda.amazonaws.com\"\n            },\n            \"Action\": \"sts:AssumeRole\"\n        }\n    ]\n}"},"responseElements":{"role":{"path":"/service-role/","roleName":"the-function-role-gifo61nz","roleId":"AROA2773X5HLCVBY3GKWP","arn":"arn:aws:iam::755905325526:role/service-role/the-function-role-gifo61nz","createDate":"2026-09-09T12:23:37Z","assumeRolePolicyDocument":"{\n    \"Version\": \"2012-10-17\",\n    \"Statement\": [\n        {\n            \"Effect\": \"Allow\",\n            \"Principal\": {\n                \"Service\": \"lambda.amazonaws.com\"\n            },\n            \"Action\": \"sts:AssumeRole\"\n        }\n    ]\n}"}},"requestID":"3376e1c6-c393-46e9-a810-8c53bed37ed0","eventID":"8e08be84-3a1b-434a-9ad6-4aa86e6bdae9","readOnly":false,"eventType":"AwsApiCall","managementEvent":true,"recipientAccountId":"755905325526","eventCategory":"Management"},{"eventVersion":"1.11","userIdentity":{"type":"Root","principalId":"755905325526","arn":"arn:aws:iam::755905325526:root","accountId":"755905325526","accessKeyId":"ASIA2773X5HLFWZAR5EL","sessionContext":{"attributes":{"creationDate":"2026-09-09T12:16:48Z","mfaAuthenticated":"true"}}},"eventTime":"2026-09-09T12:23:37Z","eventSource":"iam.amazonaws.com","eventName":"CreatePolicy","awsRegion":"us-east-1","sourceIPAddress":"65.2.12.119","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36 Edg/152.0.0.0","requestParameters":{"policyName":"AWSLambdaBasicExecutionRole-a94a51bd-b86e-43b9-aad4-01c479d2bd5c","path":"/service-role/","policyDocument":"{\n    \"Version\": \"2012-10-17\",\n    \"Statement\": [\n        {\n            \"Effect\": \"Allow\",\n            \"Action\": \"logs:CreateLogGroup\",\n            \"Resource\": \"arn:aws:logs:us-east-1:755905325526:*\"\n        },\n        {\n            \"Effect\": \"Allow\",\n            \"Action\": [\n                \"logs:CreateLogStream\",\n                \"logs:PutLogEvents\"\n            ],\n            \"Resource\": [\n                \"arn:aws:logs:us-east-1:755905325526:log-group:/aws/lambda/the-function:*\"\n            ]\n        }\n    ]\n}"},"responseElements":{"policy":{"policyName":"AWSLambdaBasicExecutionRole-a94a51bd-b86e-43b9-aad4-01c479d2bd5c","policyId":"ANPA2773X5HLLUFY4WC37","arn":"arn:aws:iam::755905325526:policy/service-role/AWSLambdaBasicExecutionRole-a94a51bd-b86e-43b9-aad4-01c479d2bd5c","path":"/service-role/","defaultVersionId":"v1","attachmentCount":0,"permissionsBoundaryUsageCount":0,"isAttachable":true,"createDate":"2026-09-09T12:23:37Z","updateDate":"2026-09-09T12:23:37Z"}},"requestID":"3376e1c6-c393-46e9-a810-8c53bed37ed0","eventID":"36301941-1953-4f46-8eda-1e2e9b87c701","readOnly":false,"eventType":"AwsApiCall","managementEvent":true,"recipientAccountId":"755905325526","eventCategory":"Management"},{"eventVersion":"1.11","userIdentity":{"type":"Root","principalId":"755905325526","arn":"arn:aws:iam::755905325526:root","accountId":"755905325526","accessKeyId":"ASIA2773X5HLFWZAR5EL","sessionContext":{"attributes":{"creationDate":"2026-09-09T12:16:48Z","mfaAuthenticated":"true"}}},"eventTime":"2026-09-09T12:23:37Z","eventSource":"iam.amazonaws.com","eventName":"AttachRolePolicy","awsRegion":"us-east-1","sourceIPAddress":"65.2.12.119","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36 Edg/152.0.0.0","requestParameters":{"roleName":"the-function-role-gifo61nz","policyArn":"arn:aws:iam::755905325526:policy/service-role/AWSLambdaBasicExecutionRole-a94a51bd-b86e-43b9-aad4-01c479d2bd5c"},"responseElements":null,"requestID":"3376e1c6-c393-46e9-a810-8c53bed37ed0","eventID":"82438daa-8fc6-4f3c-9b5f-0d5f670aaa66","readOnly":false,"eventType":"AwsApiCall","managementEvent":true,"recipientAccountId":"755905325526","eventCategory":"Management"},{"eventVersion":"1.11","userIdentity":{"type":"Root","principalId":"755905325526","arn":"arn:aws:iam::755905325526:root","accountId":"755905325526","accessKeyId":"ASIA2773X5HLFWZAR5EL","sessionContext":{"attributes":{"creationDate":"2026-09-09T12:16:48Z","mfaAuthenticated":"true"}}},"eventTime":"2026-09-09T12:23:39Z","eventSource":"lambda.amazonaws.com","eventName":"CreateFunction20150331","awsRegion":"us-east-1","sourceIPAddress":"65.2.12.119","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36 Edg/152.0.0.0","errorCode":"InvalidParameterValueException","errorMessage":"The role defined for the function cannot be assumed by Lambda.","requestParameters":{"functionName":"the-function","runtime":"python3.14","role":"arn:aws:iam::755905325526:role/service-role/the-function-role-gifo61nz","handler":"lambda_function.lambda_handler","code":{},"timeout":3,"memorySize":128,"publish":false,"environment":{}},"responseElements":null,"requestID":"743e4ce4-b178-4c25-81aa-6f6d581265a0","eventID":"8c25fb20-65d1-4a17-b937-671fe2b286b5","readOnly":false,"eventType":"AwsApiCall","managementEvent":true,"recipientAccountId":"755905325526","eventCategory":"Management","tlsDetails":{"tlsVersion":"TLSv1.3","cipherSuite":"TLS_AES_128_GCM_SHA256","clientProvidedHostHeader":"lambda.us-east-1.amazonaws.com"},"sessionCredentialFromConsole":"true"},{"eventVersion":"1.11","userIdentity":{"type":"Root","principalId":"755905325526","arn":"arn:aws:iam::755905325526:root","accountId":"755905325526","accessKeyId":"ASIA2773X5HLFWZAR5EL","sessionContext":{"attributes":{"creationDate":"2026-09-09T12:16:48Z","mfaAuthenticated":"true"}}},"eventTime":"2026-09-09T12:23:42Z","eventSource":"lambda.amazonaws.com","eventName":"CreateFunction20150331","awsRegion":"us-east-1","sourceIPAddress":"65.2.12.119","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36 Edg/152.0.0.0","errorCode":"InvalidParameterValueException","errorMessage":"The role defined for the function cannot be assumed by Lambda.","requestParameters":{"functionName":"the-function","runtime":"python3.14","role":"arn:aws:iam::755905325526:role/service-role/the-function-role-gifo61nz","handler":"lambda_function.lambda_handler","code":{},"timeout":3,"memorySize":128,"publish":false,"environment":{}},"responseElements":null,"requestID":"0756a0ee-9f23-42a8-9aa8-62352e637a0e","eventID":"bc424b80-b796-4475-abef-7e3f3efb826c","readOnly":false,"eventType":"AwsApiCall","managementEvent":true,"recipientAccountId":"755905325526","eventCategory":"Management","tlsDetails":{"tlsVersion":"TLSv1.3","cipherSuite":"TLS_AES_128_GCM_SHA256","clientProvidedHostHeader":"lambda.us-east-1.amazonaws.com"},"sessionCredentialFromConsole":"true"}]}
+{
+  "Records": [
+    {
+      "eventVersion": "1.11",
+      "userIdentity": {
+        "type": "Root",
+        "principalId": "755905325526",
+        "arn": "arn:aws:iam::755905325526:root",
+        "accountId": "755905325526",
+        "accessKeyId": "ASIA2773X5HLFWZAR5EL",
+        "sessionContext": {
+          "attributes": {
+            "creationDate": "2026-09-09T12:16:48Z",
+            "mfaAuthenticated": "true"
+          }
+        }
+      },
+      "eventTime": "2026-09-09T12:23:47Z",
+      "eventSource": "lambda.amazonaws.com",
+      "eventName": "CreateFunction20150331",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "65.2.12.119",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36 Edg/152.0.0.0",
+      "requestParameters": {
+        "functionName": "the-function",
+        "runtime": "python3.14",
+        "role": "arn:aws:iam::755905325526:role/service-role/the-function-role-gifo61nz",
+        "handler": "lambda_function.lambda_handler",
+        "code": {},
+        "timeout": 3,
+        "memorySize": 128,
+        "publish": false,
+        "environment": {}
+      },
+      "responseElements": {
+        "functionName": "the-function",
+        "functionArn": "arn:aws:lambda:us-east-1:755905325526:function:the-function",
+        "runtime": "python3.14",
+        "role": "arn:aws:iam::755905325526:role/service-role/the-function-role-gifo61nz",
+        "handler": "lambda_function.lambda_handler",
+        "codeSize": 299,
+        "description": "",
+        "timeout": 3,
+        "memorySize": 128,
+        "lastModified": "2026-09-09T12:23:47.277+0000",
+        "codeSha256": "R6fL2f5y9xHPTo4NojRtY2hz04DlAxWgwXm4xSMnwRQ=",
+        "version": "$LATEST",
+        "environment": {},
+        "tracingConfig": {
+          "mode": "PassThrough"
+        },
+        "revisionId": "5f51bc19-de81-4e3c-9d94-53d3d8cfbd49",
+        "state": "Pending",
+        "stateReason": "The function is being created.",
+        "stateReasonCode": "Creating",
+        "packageType": "Zip",
+        "architectures": [
+          "x86_64"
+        ],
+        "ephemeralStorage": {
+          "size": 512
+        },
+        "snapStart": {
+          "applyOn": "None",
+          "optimizationStatus": "Off"
+        },
+        "runtimeVersionConfig": {
+          "runtimeVersionArn": "arn:aws:lambda:us-east-1::runtime:eeb8a9516d399508120f0ea5616b892b0aa6f2f2e9c66961b3734b3ec62d8871"
+        },
+        "loggingConfig": {
+          "logFormat": "Text",
+          "logGroup": "/aws/lambda/the-function"
+        }
+      },
+      "requestID": "6998950b-c268-4a3d-b475-776a1a97c256",
+      "eventID": "c19a532e-90d9-486a-a3b1-2cf76d78b1c3",
+      "readOnly": false,
+      "eventType": "AwsApiCall",
+      "managementEvent": true,
+      "recipientAccountId": "755905325526",
+      "eventCategory": "Management",
+      "tlsDetails": {
+        "tlsVersion": "TLSv1.3",
+        "cipherSuite": "TLS_AES_128_GCM_SHA256",
+        "clientProvidedHostHeader": "lambda.us-east-1.amazonaws.com"
+      },
+      "sessionCredentialFromConsole": "true"
+    },
+    {
+      "eventVersion": "1.11",
+      "userIdentity": {
+        "type": "Root",
+        "principalId": "755905325526",
+        "arn": "arn:aws:iam::755905325526:root",
+        "accountId": "755905325526",
+        "accessKeyId": "ASIA2773X5HLFWZAR5EL",
+        "sessionContext": {
+          "attributes": {
+            "creationDate": "2026-09-09T12:16:48Z",
+            "mfaAuthenticated": "true"
+          }
+        }
+      },
+      "eventTime": "2026-09-09T12:23:38Z",
+      "eventSource": "lambda.amazonaws.com",
+      "eventName": "CreateFunction20150331",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "65.2.12.119",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36 Edg/152.0.0.0",
+      "errorCode": "InvalidParameterValueException",
+      "errorMessage": "The role defined for the function cannot be assumed by Lambda.",
+      "requestParameters": {
+        "functionName": "the-function",
+        "runtime": "python3.14",
+        "role": "arn:aws:iam::755905325526:role/service-role/the-function-role-gifo61nz",
+        "handler": "lambda_function.lambda_handler",
+        "code": {},
+        "timeout": 3,
+        "memorySize": 128,
+        "publish": false,
+        "environment": {}
+      },
+      "responseElements": null,
+      "requestID": "47063507-93f0-4625-8d86-4ee2ef8b2b80",
+      "eventID": "a181fe76-6a60-425b-8b66-18c09d160171",
+      "readOnly": false,
+      "eventType": "AwsApiCall",
+      "managementEvent": true,
+      "recipientAccountId": "755905325526",
+      "eventCategory": "Management",
+      "tlsDetails": {
+        "tlsVersion": "TLSv1.3",
+        "cipherSuite": "TLS_AES_128_GCM_SHA256",
+        "clientProvidedHostHeader": "lambda.us-east-1.amazonaws.com"
+      }
+    },
+    {
+      "eventVersion": "1.11",
+      "userIdentity": {
+        "type": "Root",
+        "principalId": "755905325526",
+        "arn": "arn:aws:iam::755905325526:root",
+        "accountId": "755905325526",
+        "accessKeyId": "ASIA2773X5HLFWZAR5EL",
+        "sessionContext": {
+          "attributes": {
+            "creationDate": "2026-09-09T12:16:48Z",
+            "mfaAuthenticated": "true"
+          }
+        }
+      },
+      "eventTime": "2026-09-09T12:23:37Z",
+      "eventSource": "iam.amazonaws.com",
+      "eventName": "CreateRole",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "65.2.12.119",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36 Edg/152.0.0.0",
+      "requestParameters": {
+        "path": "/service-role/",
+        "roleName": "the-function-role-gifo61nz",
+        "assumeRolePolicyDocument": "{\n    \"Version\": \"2012-10-17\",\n    \"Statement\": [\n        {\n            \"Effect\": \"Allow\",\n            \"Principal\": {\n                \"Service\": \"lambda.amazonaws.com\"\n            },\n            \"Action\": \"sts:AssumeRole\"\n        }\n    ]\n}"
+      },
+      "responseElements": {
+        "role": {
+          "path": "/service-role/",
+          "roleName": "the-function-role-gifo61nz",
+          "roleId": "AROA2773X5HLCVBY3GKWP",
+          "arn": "arn:aws:iam::755905325526:role/service-role/the-function-role-gifo61nz",
+          "createDate": "2026-09-09T12:23:37Z",
+          "assumeRolePolicyDocument": "{\n    \"Version\": \"2012-10-17\",\n    \"Statement\": [\n        {\n            \"Effect\": \"Allow\",\n            \"Principal\": {\n                \"Service\": \"lambda.amazonaws.com\"\n            },\n            \"Action\": \"sts:AssumeRole\"\n        }\n    ]\n}"
+        }
+      },
+      "requestID": "3376e1c6-c393-46e9-a810-8c53bed37ed0",
+      "eventID": "8e08be84-3a1b-434a-9ad6-4aa86e6bdae9",
+      "readOnly": false,
+      "eventType": "AwsApiCall",
+      "managementEvent": true,
+      "recipientAccountId": "755905325526",
+      "eventCategory": "Management"
+    },
+    {
+      "eventVersion": "1.11",
+      "userIdentity": {
+        "type": "Root",
+        "principalId": "755905325526",
+        "arn": "arn:aws:iam::755905325526:root",
+        "accountId": "755905325526",
+        "accessKeyId": "ASIA2773X5HLFWZAR5EL",
+        "sessionContext": {
+          "attributes": {
+            "creationDate": "2026-09-09T12:16:48Z",
+            "mfaAuthenticated": "true"
+          }
+        }
+      },
+      "eventTime": "2026-09-09T12:23:37Z",
+      "eventSource": "iam.amazonaws.com",
+      "eventName": "CreatePolicy",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "65.2.12.119",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36 Edg/152.0.0.0",
+      "requestParameters": {
+        "policyName": "AWSLambdaBasicExecutionRole-a94a51bd-b86e-43b9-aad4-01c479d2bd5c",
+        "path": "/service-role/",
+        "policyDocument": "{\n    \"Version\": \"2012-10-17\",\n    \"Statement\": [\n        {\n            \"Effect\": \"Allow\",\n            \"Action\": \"logs:CreateLogGroup\",\n            \"Resource\": \"arn:aws:logs:us-east-1:755905325526:*\"\n        },\n        {\n            \"Effect\": \"Allow\",\n            \"Action\": [\n                \"logs:CreateLogStream\",\n                \"logs:PutLogEvents\"\n            ],\n            \"Resource\": [\n                \"arn:aws:logs:us-east-1:755905325526:log-group:/aws/lambda/the-function:*\"\n            ]\n        }\n    ]\n}"
+      },
+      "responseElements": {
+        "policy": {
+          "policyName": "AWSLambdaBasicExecutionRole-a94a51bd-b86e-43b9-aad4-01c479d2bd5c",
+          "policyId": "ANPA2773X5HLLUFY4WC37",
+          "arn": "arn:aws:iam::755905325526:policy/service-role/AWSLambdaBasicExecutionRole-a94a51bd-b86e-43b9-aad4-01c479d2bd5c",
+          "path": "/service-role/",
+          "defaultVersionId": "v1",
+          "attachmentCount": 0,
+          "permissionsBoundaryUsageCount": 0,
+          "isAttachable": true,
+          "createDate": "2026-09-09T12:23:37Z",
+          "updateDate": "2026-09-09T12:23:37Z"
+        }
+      },
+      "requestID": "3376e1c6-c393-46e9-a810-8c53bed37ed0",
+      "eventID": "36301941-1953-4f46-8eda-1e2e9b87c701",
+      "readOnly": false,
+      "eventType": "AwsApiCall",
+      "managementEvent": true,
+      "recipientAccountId": "755905325526",
+      "eventCategory": "Management"
+    },
+    {
+      "eventVersion": "1.11",
+      "userIdentity": {
+        "type": "Root",
+        "principalId": "755905325526",
+        "arn": "arn:aws:iam::755905325526:root",
+        "accountId": "755905325526",
+        "accessKeyId": "ASIA2773X5HLFWZAR5EL",
+        "sessionContext": {
+          "attributes": {
+            "creationDate": "2026-09-09T12:16:48Z",
+            "mfaAuthenticated": "true"
+          }
+        }
+      },
+      "eventTime": "2026-09-09T12:23:37Z",
+      "eventSource": "iam.amazonaws.com",
+      "eventName": "AttachRolePolicy",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "65.2.12.119",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36 Edg/152.0.0.0",
+      "requestParameters": {
+        "roleName": "the-function-role-gifo61nz",
+        "policyArn": "arn:aws:iam::755905325526:policy/service-role/AWSLambdaBasicExecutionRole-a94a51bd-b86e-43b9-aad4-01c479d2bd5c"
+      },
+      "responseElements": null,
+      "requestID": "3376e1c6-c393-46e9-a810-8c53bed37ed0",
+      "eventID": "82438daa-8fc6-4f3c-9b5f-0d5f670aaa66",
+      "readOnly": false,
+      "eventType": "AwsApiCall",
+      "managementEvent": true,
+      "recipientAccountId": "755905325526",
+      "eventCategory": "Management"
+    },
+    {
+      "eventVersion": "1.11",
+      "userIdentity": {
+        "type": "Root",
+        "principalId": "755905325526",
+        "arn": "arn:aws:iam::755905325526:root",
+        "accountId": "755905325526",
+        "accessKeyId": "ASIA2773X5HLFWZAR5EL",
+        "sessionContext": {
+          "attributes": {
+            "creationDate": "2026-09-09T12:16:48Z",
+            "mfaAuthenticated": "true"
+          }
+        }
+      },
+      "eventTime": "2026-09-09T12:23:39Z",
+      "eventSource": "lambda.amazonaws.com",
+      "eventName": "CreateFunction20150331",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "65.2.12.119",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36 Edg/152.0.0.0",
+      "errorCode": "InvalidParameterValueException",
+      "errorMessage": "The role defined for the function cannot be assumed by Lambda.",
+      "requestParameters": {
+        "functionName": "the-function",
+        "runtime": "python3.14",
+        "role": "arn:aws:iam::755905325526:role/service-role/the-function-role-gifo61nz",
+        "handler": "lambda_function.lambda_handler",
+        "code": {},
+        "timeout": 3,
+        "memorySize": 128,
+        "publish": false,
+        "environment": {}
+      },
+      "responseElements": null,
+      "requestID": "743e4ce4-b178-4c25-81aa-6f6d581265a0",
+      "eventID": "8c25fb20-65d1-4a17-b937-671fe2b286b5",
+      "readOnly": false,
+      "eventType": "AwsApiCall",
+      "managementEvent": true,
+      "recipientAccountId": "755905325526",
+      "eventCategory": "Management",
+      "tlsDetails": {
+        "tlsVersion": "TLSv1.3",
+        "cipherSuite": "TLS_AES_128_GCM_SHA256",
+        "clientProvidedHostHeader": "lambda.us-east-1.amazonaws.com"
+      }
+    },
+    {
+      "eventVersion": "1.11",
+      "userIdentity": {
+        "type": "Root",
+        "principalId": "755905325526",
+        "arn": "arn:aws:iam::755905325526:root",
+        "accountId": "755905325526",
+        "accessKeyId": "ASIA2773X5HLFWZAR5EL",
+        "sessionContext": {
+          "attributes": {
+            "creationDate": "2026-09-09T12:16:48Z",
+            "mfaAuthenticated": "true"
+          }
+        }
+      },
+      "eventTime": "2026-09-09T12:23:42Z",
+      "eventSource": "lambda.amazonaws.com",
+      "eventName": "CreateFunction20150331",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "65.2.12.119",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36 Edg/152.0.0.0",
+      "errorCode": "InvalidParameterValueException",
+      "errorMessage": "The role defined for the function cannot be assumed by Lambda.",
+      "requestParameters": {
+        "functionName": "the-function",
+        "runtime": "python3.14",
+        "role": "arn:aws:iam::755905325526:role/service-role/the-function-role-gifo61nz",
+        "handler": "lambda_function.lambda_handler",
+        "code": {},
+        "timeout": 3,
+        "memorySize": 128,
+        "publish": false,
+        "environment": {}
+      },
+      "responseElements": null,
+      "requestID": "0756a0ee-9f23-42a8-9aa8-62352e637a0e",
+      "eventID": "bc424b80-b796-4475-abef-7e3f3efb826c",
+      "readOnly": false,
+      "eventType": "AwsApiCall",
+      "managementEvent": true,
+      "recipientAccountId": "755905325526",
+      "eventCategory": "Management",
+      "tlsDetails": {
+        "tlsVersion": "TLSv1.3",
+        "cipherSuite": "TLS_AES_128_GCM_SHA256",
+        "clientProvidedHostHeader": "lambda.us-east-1.amazonaws.com"
+      }
+    }
+  ]
+}
